@@ -210,9 +210,7 @@ export const UserMessageAttachments: FC = () => {
 export const ComposerAttachments: FC = () => {
   return (
     <div className="aui-composer-attachments mb-2 flex w-full flex-row items-center gap-2 overflow-x-auto px-1.5 pt-0.5 pb-1 empty:hidden">
-      <ComposerPrimitive.Attachments
-        components={{ Attachment: AttachmentUI }}
-      />
+      <ComposerPrimitive.Attachments components={{ Attachment: AttachmentUI }} />
     </div>
   );
 };

@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import { Github, MessagesSquare } from "lucide-react";
 import Link from "next/link";
@@ -23,17 +25,13 @@ export function ThreadListSidebar({
           <SidebarMenu>
             <SidebarMenuItem>
               <SidebarMenuButton size="lg" asChild>
-                <Link
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href="" target="_blank" rel="noopener noreferrer">
                   <div className="aui-sidebar-header-icon-wrapper flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                     <MessagesSquare className="aui-sidebar-header-icon size-4" />
                   </div>
                   <div className="aui-sidebar-header-heading mr-6 flex flex-col gap-0.5 leading-none">
                     <span className="aui-sidebar-header-title font-semibold">
-                      Trade With Ai
+                      Perfect AI
                     </span>
                   </div>
                 </Link>
@@ -50,10 +48,7 @@ export function ThreadListSidebar({
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link
-                href=""
-                target="_blank"
-              >
+              <Link href="" target="_blank">
                 <div className="aui-sidebar-footer-icon-wrapper flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                   <Github className="aui-sidebar-footer-icon size-4" />
                 </div>
